@@ -1,6 +1,5 @@
 package main
 
-<<<<<<< HEAD
 import (
 	"fmt"
 	"net/http"
@@ -9,12 +8,6 @@ import (
 func main() {
 	fmt.Println("Hello World, 1992")
 
-=======
-import "fmt"
-
-func main() {
-	fmt.Println("Hello World,1992")
->>>>>>> 787eb1239df8a7dca640dec8fbd25867d1f9728c
 	var array1 [3]*string
 
 	array2 := [3]*string{new(string), new(string), new(string)}
@@ -29,7 +22,6 @@ func main() {
 		fmt.Printf("array1[%d] = %s\n", i, *array1[i])
 	}
 
-<<<<<<< HEAD
 	// 添加HTTP处理函数
 	http.HandleFunc("/", helloHandler)
 
@@ -42,6 +34,4 @@ func main() {
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "你好, this is the root endpoint!")
-=======
->>>>>>> 787eb1239df8a7dca640dec8fbd25867d1f9728c
 }
