@@ -33,5 +33,5 @@ func main() {
 }
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, this is the root endpoint!")
+	fmt.Fprintf(w, "你好, this is the root endpoint!")
 }
